@@ -1,0 +1,14 @@
+.demo1
+{
+    height: 400px;
+    width: 90%;
+    margin: 20px;
+    padding: 20px;
+    background-color: lightcoral;
+    display: table;
+}
+.demo1 
+{
+    display: table-cell;
+    vertical-align: middle; 
+}

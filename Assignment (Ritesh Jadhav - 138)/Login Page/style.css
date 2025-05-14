@@ -1,0 +1,148 @@
+body
+{
+    background-color: #BEBEFF;
+    display: flex;
+}
+.main_box_left
+{
+    width: 35%;
+    height: 700px;
+    background-color: #8183ff;
+    border-top-left-radius:30px ;
+    border-bottom-left-radius:30px ;
+    margin-top: 60px;
+    margin-left: 230px;
+
+}
+.main_box_right
+{
+    width: 35%;
+    height: 700px;
+    background-color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: 60px;
+    margin-left: px;
+}
+.h11
+{
+    padding: 10px;
+    color: white;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.h22
+{
+    background-image: linear-gradient(darkblue, blue);
+    color: transparent;
+    background-clip: text;
+    margin-left: 38px;
+    font-family: 'Poppins', sans-serif;
+}
+.h12
+{
+   font-family: 'Poppins', sans-serif;
+   margin-left:50px;
+   color: #8183ff; 
+   margin-top: 30px;
+}
+.input-box 
+{
+    width: 90%;
+    padding: 10px 14px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.input-box:focus 
+{
+    border-color: #8183ff;
+}
+
+#agree 
+{
+    transform: scale(1.2);
+    margin-right: 8px;
+}
+
+label[for="agree"] 
+{
+    font-size: 13px;
+    line-height: 1.4;
+    display: inline-block;
+    vertical-align: middle;
+    color: #333;
+}
+
+.signup-btn 
+{
+    width: 92%;
+    padding: 12px 0;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #A993FE, #7E61FF);
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(129, 131, 255, 0.3);
+    transition: background 0.3s, transform 0.2s;
+}
+
+.signup-btn:hover 
+{
+    transform: translateY(-2px);
+    background: linear-gradient(90deg, #9985ff, #6954db);
+}
+
+.social-buttons 
+{
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    margin-top: 10px;
+}
+
+.google-btn, .facebook-btn 
+{
+    width: 48%;
+    padding: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.google-btn:hover, .facebook-btn:hover 
+{
+    background-color: #f0f0f0;
+}
+
+form p 
+{
+    font-size: 14px;
+    color: #333;
+}
+
+form a 
+{
+    text-decoration: none;
+    color: #8183ff;
+    font-weight: 500;
+}
+
+form a:hover 
+{
+    text-decoration: underline;
+}

@@ -1,0 +1,22 @@
+button
+{
+    background-color: aqua;
+    color: crimson;
+}
+#demo1
+{
+    color: rgb(21, 46, 6);
+}
+#demo2
+{
+    color: rgb(155, 28, 28);
+}
+#demo3
+{
+    color: rgb(227, 81, 9);
+}
+.odd
+{
+    background-color: rgb(0, 16, 237);
+    color: rgb(10, 10, 10);
+}

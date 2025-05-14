@@ -1,0 +1,21 @@
+.main_box
+{
+    padding: 20px;
+    background-color: orange;
+}
+.inner_box
+{
+    color: aliceblue;
+    border: 5px solid darkgoldenrod;
+    width: 19.8%;
+    margin: 10px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    color: darkgoldenrod;
+    display: inline-block;
+    text-align: center;
+}
+/* .inner_box button
+{
+    margin-left: 0px;
+} */

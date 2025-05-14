@@ -1,0 +1,18 @@
+.inner_box button
+{
+    width: 107 px;
+    margin: 5px;
+    padding: 20px;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.inner_box button:hover
+{
+    background-color: lightyellow;
+    border: 1px solid black;
+}
+.inner_box
+{
+    display: inline-block;
+}

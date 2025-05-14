@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <title>Login</title>
+    <style>
+        .form_style
+        {
+            border: 5px double black;
+            padding: 20px;
+            width: 50%;
+            margin-left: 350px;
+            margin-top: 300px;
+            margin-top: 150px;
+        }
+        .form_style label
+        {
+            color: darkred;
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+        .form_style input
+        {
+            background-color: lavender;
+            width: 400px;
+            font-size: 25px;
+            padding: 20px;
+            border: none;
+
+        }
+        .form_style input:focus
+        {
+            outline: none;
+            outline: 2px dotted red;
+        }
+        .form_style input[type="submit"]
+        {
+            margin-top: auto;
+            width: 30%;
+            margin: 10px;
+            border: 5px double navy;
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+
+        }
+        .form_style input::placeholder
+        {
+            color: navy;
+            font-size: 15px;
+        }
+        .form_style header
+        {
+            border: 3px solid black;
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            width: 30%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <form class="form_style">
+        <div class="Amazaon">
+            <header>Amazaon</header>
+        </div>
+        <label for="1">Username</label>
+        <input type="text" id="1" placeholder="Enter your username">
+
+        <label for="2">Password</label>
+        <input type="password" id="2" placeholder="Enter your password">
+
+        <input type="submit">
+
+
+    </form>
+</body>
+</html>
